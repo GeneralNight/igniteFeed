@@ -1,0 +1,15 @@
+.post {
+    background: var(--gray-800);
+    border-radius: 8px;
+    padding: 2.5rem;
+}
+
+.post + .post {
+    margin-top: 2rem;
+}
+
+@media (max-width:576px) {
+    .post {
+        padding: 1.5rem 1rem;
+    }
+}

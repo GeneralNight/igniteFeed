@@ -1,0 +1,22 @@
+.avatar {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 8px;
+    min-width: 3.125rem;
+    overflow: hidden;
+}
+
+.avatarOutline {
+    width: 3.75rem;
+    height: 3.75rem;
+    min-width: 3.75rem;
+    background: var(--gray-800);
+    padding: .35rem;
+    border-radius: 8px;
+    border: 2px solid var(--green-500);
+}
+
+.avatar img, .avatarOutline img {
+    width: 100%;
+    border-radius: 4px;    
+}

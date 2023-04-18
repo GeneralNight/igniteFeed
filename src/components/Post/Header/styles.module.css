@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.profile .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px 0;
+}
+
+.profile strong {
+    color: var(--gray-100);
+}
+
+.profile span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+header .published {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+@media (max-width:576px) {
+    header {
+        flex-direction: column;
+        align-items: start;
+        gap: .875rem 0;
+    }
+}
